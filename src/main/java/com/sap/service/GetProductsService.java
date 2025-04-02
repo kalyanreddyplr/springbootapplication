@@ -26,6 +26,9 @@ public class GetProductsService {
 
 		logger.info("Retrieved {} products from the database.", products.size());
 
+		
+		System.out.println("Wrirtten by SUbbu-------------");
+		
 		return products;
 	}
 
