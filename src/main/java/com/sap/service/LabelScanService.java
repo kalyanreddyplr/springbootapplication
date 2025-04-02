@@ -72,6 +72,7 @@ public class LabelScanService {
             } else {
                 response.put("message", "getRedemptionStatus is not YES");
                 response.put("status", 412);
+                System.out.println("First Push");
             }
 
             responseList.add(response);
