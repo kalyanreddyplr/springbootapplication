@@ -1,5 +1,6 @@
 package com.sap.controller;
 
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,8 +25,9 @@ public class BpclCaseController {
 	 * BpclCaseDto caseDetails) { //
 	 * logger.info("Received request to add cases: {}", case);
 	 * bpclCaseService.processCases(caseDetails); return
-	 * ResponseEntity.ok("Cases processed successfully."); }
+	 * ResponseEntity.ok("Cases processed successfully."); }post
 	 */
+	  
     
     @PostMapping("/updatecases")
    // @Scheduled(fixedRate = 2000)      
